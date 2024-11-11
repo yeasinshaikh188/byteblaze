@@ -1,12 +1,14 @@
 import { createBrowserRouter } from 'react-router-dom'
 import Roote from '../Roote/Roote'
-import Home from '../pages.jsx/Home'
-import Blogs from '../pages.jsx/Blogs'
-import Blog from '../components/Blog'
+import ErrorPage from '../components/ErrorPage'
+import Home from '../pages/Home'
+import YeasinBlog from '../components/Blog'
+import Blogs from '../pages/Blogs'
 import Content from '../components/Content'
 import Author from '../components/Author'
-import ErrorPage from '../components/ErrorPage'
-import Bookmarks from '../pages.jsx/Bookmarks'
+import Bookmarks from '../pages/Bookmarks'
+
+
 
 export const router = createBrowserRouter([
   {
@@ -25,7 +27,7 @@ export const router = createBrowserRouter([
       },
       {
         path: '/blog/:id',
-        element: <Blog />,
+        element: <YeasinBlog />,
         loader: ({ params }) =>
           fetch(`https://dev.to/api/articles/${params?.id}`),
         children: [

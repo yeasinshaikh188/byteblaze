@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Link, Outlet, useLoaderData } from 'react-router-dom'
 import { MdBookmarkAdd } from 'react-icons/md'
 import { saveBlog } from '../utils'
-const Blog = () => {
+const YeasinBlog = () => {
   const [tabIndex, setTabIndex] = useState(0)
   const blog = useLoaderData()
   const {
@@ -91,4 +91,4 @@ const Blog = () => {
   )
 }
 
-export default Blog
+export default YeasinBlog

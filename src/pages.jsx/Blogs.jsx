@@ -1,6 +1,6 @@
 import { Link, useLoaderData } from "react-router-dom";
 import moment from 'moment';
-import BlogCard from "../Components/BlogCard";
+import BlogCard from "../components/BlogCard";
 
 const Blogs = () => {
     const blogs = useLoaderData();

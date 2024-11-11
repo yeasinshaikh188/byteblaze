@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import BlogCard from '../Components/BlogCard'
+import BlogCard from '../components/BlogCard'
 import { deleteBlog, getBlogs } from '../utils'
 import EmptyState from '../components/EmptyState'
 

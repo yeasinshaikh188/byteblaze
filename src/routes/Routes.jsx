@@ -1,12 +1,12 @@
 import { createBrowserRouter } from 'react-router-dom'
 import Roote from '../Roote/Roote'
-import Home from '../pages/Home'
-import Blogs from '../pages/Blogs'
-import Blog from '../Components/Blog'
+import Home from '../pages.jsx/Home'
+import Blogs from '../pages.jsx/Blogs'
+import Blog from '../components/Blog'
 import Content from '../components/Content'
 import Author from '../components/Author'
 import ErrorPage from '../components/ErrorPage'
-import Bookmarks from '../pages/Bookmarks'
+import Bookmarks from '../pages.jsx/Bookmarks'
 
 export const router = createBrowserRouter([
   {

@@ -1,11 +1,11 @@
 const Footer = () => {
-    return (
-        <footer className="footer footer-center bg-base-300 text-base-content p-4">
-  <aside>
-    <p>Copyright © {new Date().getFullYear()} - All right reserved by ByteBlaze</p>
-  </aside>
-</footer>
-    );
-};
+  return (
+    <footer className='footer footer-center p-4 bg-base-200 shadow-lg text-base-content'>
+      <aside>
+        <p>Copyright © 2024 - All right reserved by ByteBlaze</p>
+      </aside>
+    </footer>
+  )
+}
 
-export default Footer;
+export default Footer

@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom'
 
-const ErrorPage = () => {
+const YeasinError = () => {
   const navigate = useNavigate()
 
   return (
@@ -59,4 +59,4 @@ const ErrorPage = () => {
   )
 }
 
-export default ErrorPage
+export default YeasinError

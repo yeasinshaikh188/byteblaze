@@ -1,6 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom'
 import Roote from '../Roote/Roote'
-import Home from '../pages/Home'
+import Home from '../Pages/Home'
 import Blogs from '../pages/Blogs'
 import Blog from '../Components/Blog'
 import Content from '../components/Content'
